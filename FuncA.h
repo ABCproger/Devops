@@ -1,9 +1,10 @@
 #ifndef FUNCA_H
-#define TFUNCA_H
+#define FUNCA_H
 
-class TrigFunction {
+class FuncA {
 public:
-    double FuncA();
+    // Function to calculate the value of the series
+    double Calculate(double x);
 };
 
 #endif

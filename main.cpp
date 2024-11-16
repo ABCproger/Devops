@@ -2,7 +2,8 @@
 #include "FuncA.h"
 
 int main() {
-    TrigFunction trig;
-    std::cout << "FuncA result: " << trig.FuncA() << std::endl;
+    FuncA func;
+    double result = func.Calculate(0.5);
+    std::cout << "Result: " << result << std::endl;
     return 0;
 }
