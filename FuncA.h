@@ -1,18 +1,10 @@
-#ifndef TRIGFUNCTION_H
-#define TRIGFUNCTION_H
+#ifndef FUNCA_H
+#define FUNCA_H
 
-class TrigFunction {
+class FuncA {
 public:
-    double FuncA(); // Function returning 0
+    // Function to calculate the value of the series
+    double Calculate(double x, int n);
 };
 
-#endif
-#ifndef TRIGFUNCTION_H
-#define TRIGFUNCTION_H
-
-class TrigFunction {
-public:
-    double FuncA(); // Function returning 0
-};
-
-#endif
+#endif 
